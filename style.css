@@ -1,3 +1,9 @@
+*body{
+    font-family: 'Poppins', sans-serif;
+}
+.nav-bg{
+    background-color:#FF136F;
+}
 .container{
     margin-bottom: 100px;
 }
@@ -28,4 +34,22 @@
    border-color: #FF136F;
    border-radius: 8px;
    outline: #FF136F ;
+}
+.catagorie-1, .shoes-heading{
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.cat1, 
+.card{
+    background-color: #fceae8;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #FF136F;
+}
+.catagories img{
+    width: 100px;
+}
+.card{
+    
 }

@@ -46,10 +46,8 @@
     margin-bottom: 20px;
     border-radius: 5px;
     border: 1px solid #FF136F;
+    box-shadow: 5px 5px 10px rgb(155, 150, 150);
 }
 .catagories img{
     width: 100px;
-}
-.card{
-    
 }

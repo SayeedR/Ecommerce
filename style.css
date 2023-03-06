@@ -51,3 +51,13 @@
 .catagories img{
     width: 100px;
 }
+.subscribe{
+    height: 300px;
+}
+.send,
+.subscribe-heading{
+    text-transform: uppercase;
+}
+footer{
+    text-align: center;
+}

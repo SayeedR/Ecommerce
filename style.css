@@ -1,5 +1,9 @@
+
 *body{
     font-family: 'Poppins', sans-serif;
+}
+.fullbody{
+    max-height: fit-content;
 }
 .nav-bg{
     background-color:#FF136F;
@@ -22,9 +26,11 @@
     background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
     color: #fff;
     border-radius: 8px;
-    padding: 9px 25px;
+    padding: 9px 20px;
     border: none;
+    
 }
+
 .form-control{
     border-color: #FF136F;
     border-radius: 8px;
@@ -51,13 +57,46 @@
 .catagories img{
     width: 100px;
 }
-.subscribe{
-    height: 300px;
+.card-img-top{
+    height: 100%;
+    width: 100%;
 }
-.send,
-.subscribe-heading{
-    text-transform: uppercase;
+.card-text{
+    font-size: 13px;
+
 }
-footer{
+.card-body{
     text-align: center;
+}
+
+/* footer design start here */
+
+.bg-footer{
+    background-color:rgb(21, 9, 32);
+   width: 100%;
+    height: 400px;
+}
+.onu{
+    color: white;
+    text-align: center;
+    
+}
+.footer-list,
+.h5-head{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.container{
+    width: 100%;
+    padding: 20px 20px;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+.copy-tag{
+    color: white;
+    text-align: center;
+    margin-top: 70px;
 }

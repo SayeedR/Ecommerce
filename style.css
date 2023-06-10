@@ -2,9 +2,7 @@
 *body{
     font-family: 'Poppins', sans-serif;
 }
-.fullbody{
-    max-height: fit-content;
-}
+
 .nav-bg{
     background-color:#FF136F;
 }
@@ -19,11 +17,11 @@
     padding: 20px 40px;
 }
 .price{
-    color: #FF136F;
+    color: #352e31;
 }
 .search,
-.top-banner-button{
-    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+.top-banner-button1{
+    background-image: linear-gradient(to bottom, #352e31 0%, #501f32 100%);
     color: #fff;
     border-radius: 8px;
     padding: 9px 20px;
@@ -32,27 +30,53 @@
 }
 
 .form-control{
-    border-color: #FF136F;
+    border-color: #352e31;
     border-radius: 8px;
-    outline: #FF136F ;
+    outline: #352e31 ;
 }
 .form-control:focus{
-   border-color: #FF136F;
+   border-color: #352e31;
    border-radius: 8px;
-   outline: #FF136F ;
+   outline: #352e31 ;
 }
 .catagorie-1, .shoes-heading{
     text-align: center;
     padding-bottom: 20px;
     text-transform: uppercase;
 }
-.cat1, 
+
 .card{
     background-color: #fceae8;
     margin-bottom: 20px;
     border-radius: 5px;
-    border: 1px solid #FF136F;
-    box-shadow: 5px 5px 10px rgb(155, 150, 150);
+    
+   
+}
+.card:hover{
+    box-shadow: 0 0 30px rgb(70, 67, 67);
+    border: 1px solid #352e31;
+    
+    
+}
+.top-banner-button{
+    display: none;
+}
+.card:hover .top-banner-button{
+    background-image: linear-gradient(to bottom, #352e31 0%, #501f32 100%);
+    color: #fff;
+    border-radius: 8px;
+    padding: 9px 20px;
+    border: none;
+    display: inline-block;
+   
+   
+
+}
+.cat1{
+    background-color: #fceae8;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(70, 67, 67);
 }
 .catagories img{
     width: 100px;
@@ -72,7 +96,7 @@
 /* footer design start here */
 
 .bg-footer{
-    background-color:rgb(21, 9, 32);
+    background-color:#352e31;
    width: 100%;
     height: 400px;
 }
